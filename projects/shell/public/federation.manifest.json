@@ -1,0 +1,6 @@
+{
+	"todo": "http://localhost:4201/remoteEntry.json",
+	"school": "http://localhost:4202/remoteEntry.json",
+	"ims": "http://localhost:4203/remoteEntry.json",
+	"lms": "http://localhost:4204/remoteEntry.json"
+}
