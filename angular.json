@@ -138,7 +138,12 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+          "options": {
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.scss"
+            ]
+          },
 					"configurations": {
 						"production": {
 							"target": "todo:esbuild:production"
@@ -178,8 +183,9 @@
 							}
 						],
 						"styles": [
-							"projects/todo/src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "projects/todo/src/styles.scss"
+            ],
 						"scripts": []
 					}
 				},
@@ -260,7 +266,11 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+          "options": {
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css"
+            ]
+          },
 					"configurations": {
 						"production": {
 							"target": "school:esbuild:production"
@@ -300,8 +310,9 @@
 							}
 						],
 						"styles": [
-							"projects/school/src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "projects/school/src/styles.scss"
+            ],
 						"scripts": []
 					}
 				},
@@ -382,7 +393,11 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+          "options": {
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css"
+            ]
+          },
 					"configurations": {
 						"production": {
 							"target": "ims:esbuild:production"
@@ -422,8 +437,9 @@
 							}
 						],
 						"styles": [
-							"projects/ims/src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "projects/ims/src/styles.scss"
+            ],
 						"scripts": []
 					}
 				},
@@ -504,7 +520,11 @@
 			"architect": {
 				"build": {
 					"builder": "@angular-architects/native-federation:build",
-					"options": {},
+          "options": {
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css"
+            ]
+          },
 					"configurations": {
 						"production": {
 							"target": "lms:esbuild:production"
@@ -544,8 +564,9 @@
 							}
 						],
 						"styles": [
-							"projects/lms/src/styles.scss"
-						],
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "projects/lms/src/styles.scss"
+            ],
 						"scripts": []
 					}
 				},
